@@ -10,29 +10,10 @@ module.exports = {
 		libraryTarget: 'commonjs2',
     },
     resolve: {
-        // Add '.ts' and '.tsx' as resolvable extensions.
         extensions: [".ts", ".tsx"]
     },
 	module: {
 		rules: [
-			// {
-			// 	enforce: 'pre',
-			// 	test: /\.jsx?$/,
-			// 	loaders: ['eslint-loader'],
-			// 	include: path.resolve(__dirname, 'src'),
-			// 	exclude: /(node_modules|build)/,
-			// },
-			// {
-			// 	test: /\.jsx?$/,
-			// 	include: path.resolve(__dirname, 'src'),
-			// 	exclude: /(node_modules|build)/,
-			// 	use: {
-			// 		loader: 'babel-loader',
-			// 		options: {
-			// 			presets: ['env'],
-			// 		},
-			// 	},
-            // },
             {
 				test: /\.tsx?$/,
 				include: path.resolve(__dirname, 'src'),
@@ -40,11 +21,11 @@ module.exports = {
 				use: {
 					loader: 'ts-loader',
 				},
-            },
+			},
             {
 				test: /\.ts?$/,
 				include: path.resolve(__dirname, 'src'),
-				exclude: /(node_modules|build)/,
+				exclude: /(node_modules|build|__tests__)/,
 				use: {
 					loader: 'ts-loader',
 				},
@@ -52,7 +33,7 @@ module.exports = {
 			{
 				test: /\.css$/,
 				loaders: ['style-loader', 'css-loader'],
-				exclude: /node_modules/,
+				exclude: /(node_modules|__tests__)/,
 			},
 		],
 	},
