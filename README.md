@@ -71,7 +71,7 @@ const LazyLoad = () => {
 Props | Types | Default | Description
 ----- | ----- | ------- | -----------
 src* | string | | the image src
-conf* | object | `{isLazy: false dimension: undefined}` | with this object you can set lazy loading on/off, you can also specifie the dimension of the image(else it's auto detected)
+conf* | object | `{isLazy: false dimension: undefined}` | with this object you can set lazy loading on/off, you can also specify the dimension of the image(else it's auto detected)
 smSrc | string | | the src of the same image as src, but in lower quality to make it load real quick
 alt | string | | the alt of the image
 ariaLabel | string | | aria-label for the image
