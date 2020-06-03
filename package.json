@@ -12,10 +12,8 @@
   "description": "A typescript react module to make progessive image loading, with possible lazy loading and auto detect image size",
   "homepage": "https://github.com/Pierre-Monier/react-prog-img#READ_ME",
   "main": "build/index.js",
-  "module": "build/index.es.js",
-  "css": "build/style/ProgImg.css",
   "files": [
-    "build"
+    "/build"
   ],
   "jsnext:main": "build/index.es.js",
   "repository": {
