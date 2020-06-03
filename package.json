@@ -60,7 +60,6 @@
   "dependencies": {
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
-    "object-assign": "^4.1.1",
-
+    "object-assign": "^4.1.1"
   }
 }
