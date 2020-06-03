@@ -1,7 +1,7 @@
 # ProgImg
 
-React component to do progressive image loading. It can handle lazy loading too (IntersectionObserver) and auto detect the image size before. 
-* I'm currently just a student and I did this module to learn stuff, if you want a more professional module for lazy loading and do progressive image loading you can check* [React Lazy Load Image Component!](https://github.com/Aljullu/react-lazy-load-image-component/blob/master/README.md)
+React component to do **progressive image** loading. It can handle **lazy loading** too (IntersectionObserver) and **auto detect** the image size. 
+*I'm currently just a student and I did this module to learn stuff, if you want a more professional module for lazy loading and do progressive image loading you can check[React Lazy Load Image Component!](https://github.com/Aljullu/react-lazy-load-image-component/blob/master/README.md)*
 ### Features
 
 * Progressive image loading using css effect
@@ -38,8 +38,8 @@ const Basic = () => {
 }
 ```
 
-![demo-basic](./img_read_me/basic-demo.gif)
-
+![demo-basic](./img_read_me/basic-demo.gif)\
+***
 
 
 ```javascript
@@ -50,8 +50,8 @@ const MediumLikeEffect = () => {
 }
 ```
 
-![demo-blur-effect](./img_read_me/blur-effect-demo.gif)
-
+![demo-blur-effect](./img_read_me/blur-effect-demo.gif)\
+***
 
 
 ```javascript
@@ -62,8 +62,8 @@ const LazyLoad = () => {
 }
 ```
 
-![demo-lazy-loading](./img_read_me/lazy-load-demo.gif)
-
+![demo-lazy-loading](./img_read_me/lazy-load-demo.gif)\
+***
 
 
 # Props
@@ -77,10 +77,10 @@ alt | string | | the alt of the image
 ariaLabel | string | | aria-label for the image
 ariaLabelledBy | object | `{component: 'p', txt: '', class: ''}` | aria-labelled-by (caption) for the image, you can chose the component, text and add a custom class 
 ariaDescribedBy | object | `{component: 'p', txt: '', class: ''}` | aria-described-by for the image, you can chose the component, text and add a custom class 
-bg | string | #eee | custom background placeholder (tips: dominant color of your image)
-delay | number | 1 | the transition delay of the image(s)
-trans | string | 'linear' | the transition effect name, you can also put cubic bezier curve
+bg | string | `#eee` | custom background placeholder (tips: dominant color of your image)
+delay | number | `1` | the transition delay of the image(s)
+trans | string | `'linear'` | the transition effect name, you can also put cubic bezier curve
 cstClass | string | | a custom class for the placeholder
-effect | string | blur | a css transition effect, you can put 'blur', 'black-n-white' or 'both, you can also create your own css/jss class  
+effect | string | `blur` | a css transition effect, you can put 'blur', 'black-n-white' or 'both, you can also create your own css/jss class  
 
-** '*' means mandatory  **
+> * means mandatory
