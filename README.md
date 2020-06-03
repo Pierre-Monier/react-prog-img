@@ -43,6 +43,9 @@ const Basic = () => {
 
 
 ```javascript
+import React from 'react'
+import ProgImg from 'react-prog-img'
+
 const MediumLikeEffect = () => {
     return(
         <ProgImg src="big-img-file.jpg" smSrc="small-file-who-load-faster.jpg" effect="blur" conf={{isLazy: false}} />
@@ -55,6 +58,9 @@ const MediumLikeEffect = () => {
 
 
 ```javascript
+import React from 'react'
+import ProgImg from 'react-prog-img'
+
 const LazyLoad = () => {
     return(
         <>
