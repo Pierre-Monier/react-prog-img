@@ -77,10 +77,10 @@ alt | string | | the alt of the image
 ariaLabel | string | | aria-label for the image
 ariaLabelledBy | object | `{component: 'p', txt: '', class: ''}` | aria-labelled-by (caption) for the image, you can chose the component, text and add a custom class 
 ariaDescribedBy | object | `{component: 'p', txt: '', class: ''}` | aria-described-by for the image, you can chose the component, text and add a custom class 
-bg | string | `#eee` | custom background placeholder (tips: dominant color of your image)
+bg | string | `'#eee'` | custom background placeholder (tips: dominant color of your image)
 delay | number | `1` | the transition delay of the image(s)
 trans | string | `'linear'` | the transition effect name, you can also put cubic bezier curve
 cstClass | string | | a custom class for the placeholder
-effect | string | `blur` | a css transition effect, you can put 'blur', 'black-n-white' or 'both, you can also create your own css/jss class  
+effect | string | `'blur'` | a css transition effect, you can put 'blur', 'black-n-white' or 'both, you can also create your own css/jss class  
 
-> * means mandatory
+> '*' means mandatory
