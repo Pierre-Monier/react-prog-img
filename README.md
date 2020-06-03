@@ -57,7 +57,10 @@ const MediumLikeEffect = () => {
 ```javascript
 const LazyLoad = () => {
     return(
-        <ProgImg src="big-img-file.jpg" bg="#ceb4cb" conf={{isLazy: true, dimension: { width: 600, height: 300 }}} ariaDescribedBy={{component: 'h5', txt: 'caption'}} />
+        <>
+            <div className="lot-of-margin-bottom">
+            <ProgImg src="big-img-file.jpg" bg="#ceb4cb" conf={{isLazy: true, dimension: { width: 600, height: 300 }}} ariaDescribedBy={{component: 'h5', txt: 'caption'}} />
+        </>
     )
 }
 ```
