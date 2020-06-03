@@ -38,7 +38,7 @@ const Basic = () => {
 }
 ```
 
-![demo-basic](./img_read_me/basic-demo.gif)\
+![demo-basic](./img_read_me/basic-demo.gif)  
 ***
 
 
@@ -50,7 +50,7 @@ const MediumLikeEffect = () => {
 }
 ```
 
-![demo-blur-effect](./img_read_me/blur-effect-demo.gif)\
+![demo-blur-effect](./img_read_me/blur-effect-demo.gif)  
 ***
 
 
@@ -62,7 +62,7 @@ const LazyLoad = () => {
 }
 ```
 
-![demo-lazy-loading](./img_read_me/lazy-load-demo.gif)\
+![demo-lazy-loading](./img_read_me/lazy-load-demo.gif)  
 ***
 
 
