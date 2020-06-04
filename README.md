@@ -1,6 +1,6 @@
 # ProgImg
 
-React component to do **progressive image** loading. It can handle **lazy loading** too (IntersectionObserver) and **auto detect** the image size.   
+React component to do **smooth image** loading. It can handle **lazy loading** too (IntersectionObserver) and **auto detect** the image size.   
 *I'm currently just a student and I did this module to learn stuff, if you want a more professional module for lazy loading and progressive image loading you can check [React Lazy Load Image Component!](https://github.com/Aljullu/react-lazy-load-image-component/blob/master/README.md)*
 ### Features
 
